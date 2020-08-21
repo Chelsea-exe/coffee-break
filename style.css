@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.carousel-item {
+    height: 22rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+#photo1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/pexels-pixabay-53621.jpg);
+}
+#photo2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/olga-delawrence-5616whx5NdQ-unsplash.jpg);
+}
+#photo3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(./images/pexels-jonathan-borba-3689186.jpg);
+}
+/* .inner-description {
+    background-color: black;
+    padding-top: 200px;
+} */
+#story-photo {
+    height: 20vh;
+}
+#story-p {
+    float: right;
+}
+#coffee-story {
+    border-top: black 1px solid;
+}
