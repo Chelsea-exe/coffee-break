@@ -10,7 +10,7 @@
     background-position: center;
     background-size: cover;
 }
-.container {
+.coffee-container {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,12 +30,27 @@
     background-color: black;
     padding-top: 200px;
 } */
+/* #story-header {
+    border-bottom: tan 2px solid;
+} */
+#contact-header {
+    float: right;
+}
 #story-photo {
     height: 20vh;
 }
 #story-p {
     float: right;
 }
-#coffee-story {
-    border-top: black 1px solid;
+/* #contact-p {
+padding-top: 60px;
+} */
+.container-fluid {
+    padding-bottom: 5px;
+}
+.coffee-footer {
+    color: white;
+}
+#story-header {
+    float: right;
 }
